@@ -1,0 +1,122 @@
+*{
+	box-sizing: border-box;
+}
+
+html,body{
+	scroll-behavior: smooth;
+}
+
+body{
+	font-size: 15px;
+	line-height: 24px;
+	background-color: #f2f2f2;
+}
+
+a{
+	text-decoration: none;
+}
+
+.header{
+	height: 100px;
+	background-color: #f2f2f2;
+	padding: 0 40px;
+}
+
+.header_inner{
+	height: 100px;
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+}
+
+.logo{
+	font-weight: 700;
+	font-size: 25px;
+	width: 202px;
+}
+
+.navbar{
+	display: flex;
+}
+
+.navbar li{
+	text-decoration: none;
+	padding-right: 25px;
+	list-style-type: none;
+}
+
+.navbar li a{
+	color: #757575;
+	font-weight: 400;
+	font-size: 18px;
+	font-family: 'Josefin Sans', sans-serif;
+	transition: all 0.5s;
+}
+
+.navbar li a:hover{
+	color: red;
+}
+
+
+.number a{
+	color: black;
+	font-size: 25px;
+	font-weight: 700;
+}
+
+.container{
+	width: 1170px;
+	margin: 0 auto;
+	align-items: center;
+	text-align: center;
+}
+
+.cartitle{
+	margin: 100px 0;
+	font-size: 50px;
+}
+
+.contacts_inner{
+	display: flex;
+	justify-content: space-between;
+}
+
+.peoples{
+	width: 540px;
+	background-color: red;
+	height: 1000px;
+}
+
+.question{
+	width: 470px;
+	background-color: red;
+	height: 500px;
+	background-color: #e5e5e5;
+}
+
+.btn{
+	text-decoration: none;
+	color: #fff;
+	font-size: 20px;
+	background-color: red;
+	padding: 5px 20px;
+	text-transform: uppercase;
+	font-family: 'Noto Serif', serif;
+}
+
+.input{
+	margin-top: 10px;
+	height: 30px;
+	width: 300px;
+	padding-left: 5px;
+	margin-bottom: 20px;
+}
+
+textarea{
+	height: 70px;
+	width: 300px;
+}
+
+.button{
+	margin-top: 45px;
+}

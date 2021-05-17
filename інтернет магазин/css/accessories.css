@@ -1,0 +1,164 @@
+*{
+	box-sizing: border-box;
+}
+
+html,body{
+	scroll-behavior: smooth;
+}
+
+body{
+	font-size: 15px;
+	line-height: 24px;
+	background-color: #f2f2f2;
+}
+
+a{
+	text-decoration: none;
+}
+
+.header{
+	height: 100px;
+	background-color: #f2f2f2;
+	padding: 0 40px;
+}
+
+.header_inner{
+	height: 100px;
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+}
+
+.logo{
+	font-weight: 700;
+	font-size: 25px;
+	width: 202px;
+	/*border: 3px solid red;
+	padding: 7px;
+	border-radius: 10px;*/
+}
+
+.navbar{
+	display: flex;
+}
+
+.navbar li{
+	text-decoration: none;
+	padding-right: 25px;
+	list-style-type: none;
+}
+
+.navbar li a{
+	color: #757575;
+	font-weight: 400;
+	font-size: 18px;
+	font-family: 'Josefin Sans', sans-serif;
+	transition: all 0.5s;
+}
+
+.navbar li a:hover{
+	color: red;
+}
+
+
+.number a{
+	color: black;
+	font-size: 25px;
+	font-weight: 700;
+}
+.container{
+	width: 1170px;
+	margin: 0 auto;
+	align-items: center;
+	text-align: center;
+}
+
+.cartitle{
+	margin: 100px 0;
+	font-size: 50px;
+}
+
+.btn{
+	text-decoration: none;
+	color: #fff;
+	font-size: 25px;
+	background-color: red;
+	padding: 5px 20px;
+	text-transform: uppercase;
+	font-family: 'Noto Serif', serif;
+}
+
+.car{
+	width: 555px;
+	height: 713px;
+	background-color: #e5e5e5;
+	border: 1px solid grey;
+}
+
+
+.cars{
+	display: flex;
+	justify-content: space-between;
+	margin-bottom: 50px;
+}
+
+/*.aboutcar{
+	display: flex;
+	justify-content: space-around;
+	margin-top: 30px;
+}*/
+
+.price{
+	margin-top: 40px;
+	margin-bottom: 60px;
+}
+
+.red{
+    color: red;
+    font-weight: 600;
+    font-size: 20px;
+}
+
+/*.about ul{
+	list-style-type: none;
+	padding: 0;
+
+}*/
+
+.about{
+	display: flex;
+	justify-content: space-between;
+	width: 200px;
+	align-items: center;
+	margin: 0 auto;
+}
+
+.ptext{
+	max-width: 425px;
+}
+
+.priceb{
+	margin-top: 112px;
+}
+
+.priceb2{
+	margin-top: 64px;
+}
+
+.footer_inner{
+	display: flex;
+	justify-content: space-between;
+	height: 100px;
+	align-items: center;
+	margin-top: 70px;
+}
+
+.footer_inner ul{
+	list-style-type: none;
+	text-align: left;
+}
+
+.footer_inner ul li {
+	font-size: 17px;
+}
+

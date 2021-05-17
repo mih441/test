@@ -1,0 +1,310 @@
+*{
+	box-sizing: border-box;
+}
+
+html,body{
+	scroll-behavior: smooth;
+}
+
+body{
+	font-size: 15px;
+	line-height: 24px;
+	background-color: #f2f2f2;
+}
+
+a{
+	text-decoration: none;
+}
+
+.header{
+	height: 100px;
+	background-color: #f2f2f2;
+	padding: 0 40px;
+}
+
+.header_inner{
+	height: 100px;
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+}
+
+.logo{
+	font-weight: 700;
+	font-size: 25px;
+	width: 202px;
+}
+
+.navbar{
+	display: flex;
+}
+
+.navbar li{
+	text-decoration: none;
+	padding-right: 25px;
+	list-style-type: none;
+}
+
+.navbar li a{
+	color: #757575;
+	font-weight: 400;
+	font-size: 18px;
+	font-family: 'Josefin Sans', sans-serif;
+	transition: all 0.5s;
+}
+
+.navbar li a:hover{
+	color: red;
+}
+
+
+.number a{
+	color: black;
+	font-size: 25px;
+	font-weight: 700;
+}
+
+.banner{
+	background-image: url(../img/tesla.jpg);
+	height: 590px;
+	background-repeat: no-repeat;
+	background-position: center;
+	background-size: cover;
+}
+
+.banner2{
+	background-image: url(../img/teslaz.jpg);
+	height: 590px;
+	background-repeat: no-repeat;
+	background-position: center;
+	background-size: cover;
+	margin-top: 70px;
+}
+
+
+.container{
+	width: 1170px;
+	margin: 0 auto;
+}
+
+.container_inner{
+	align-items: center;
+	text-align: center;
+	padding-top: 177px;
+}
+
+.banner_title{
+	font-size: 45px;
+	color: #fff;
+	font-weight: 700;
+	font-family: 'Noto Serif', serif;
+}
+
+.title2{
+	margin-top: -7px;
+}
+
+.btn{
+	text-decoration: none;
+	color: #fff;
+	font-weight: 400;
+	font-size: 35px;
+	background-color: red;
+	border-radius: 6px;
+	padding: 5px 20px;
+	text-transform: uppercase;
+	font-family: 'Noto Serif', serif;
+}
+
+.button{
+	padding-top: 50px;
+}
+
+.car{
+	padding-top: 50px;
+}
+
+.car_inner{
+	display: flex;
+	justify-content: space-between;
+	padding-top: 20px;
+}
+
+.car_info{
+	width: 510px;
+	height: 400px;
+
+}
+
+
+.name{
+	font-weight: 700;
+	font-size: 30px;
+}
+
+.arr{
+	text-decoration: none;
+	color: black;
+	font-weight: 400;
+	font-size: 20px;
+	background-color: #e9e9e9;
+	padding: 10px 20px;
+}
+
+.image{
+	margin-bottom: -7px;
+	margin-right: 5px;
+}
+
+.info{
+	padding: 0;
+	margin-left: 20px;
+	margin-top: 35px;
+}
+
+.info li{
+	font-size: 20px;
+    color: #383838;
+    line-height: 24px;
+    font-family: 'Josefin Sans', sans-serif;
+}
+
+.btns{
+	margin-top: 35px;
+}
+
+.btn1{
+	margin-right: 10px;
+	text-decoration: none;
+	color: red;
+	font-weight: 500;
+	font-size: 20px;
+	border: 1px solid red;
+	padding: 5px 10px;
+	transition: all 0.5s;
+}
+
+.btn1:hover{
+	color: #fff;
+	background-color: red;
+}
+
+.container_sell{
+	padding-top: 80px;
+	height: 230px;
+	width: 1010px;
+	margin: 0 auto;
+}
+
+.title_sell{
+	text-transform: uppercase;
+	padding-bottom: 30px;
+	font-size: 40px;
+}
+
+.num p{
+	font-size: 30px;
+	font-weight: 700;
+	background-color: #de5252;
+	padding: 20px;
+	border-radius: 40px;
+}
+
+
+.sell_info{
+	display: flex;
+	justify-content: space-around;
+	margin-top: 50px;
+	align-items: center;
+}
+
+.selltitle{
+	width: 410px;
+	text-align: right;
+	font-size: 30px;
+	color: black;
+	font-weight: 700;
+}
+
+.sellimg{
+	width: 110px;
+}
+
+.selltext{
+	width: 420px;
+	text-align: left;
+	color: #383838;
+	font-size: 20px;
+	font-family: 'Josefin Sans', sans-serif;
+}
+
+.title_sell-2{
+	margin-top: 200px;
+}
+
+.cars{
+	display: flex;
+	justify-content: space-between;
+}
+
+.btn_info{
+	margin-top: 50px;
+	margin-bottom: 200px;
+}
+
+
+.news_items{
+	display: flex;
+	justify-content: space-between;
+	margin-left: -50px;
+    padding-bottom: 20px;
+}
+
+.news_item{
+	width: 360px;
+	height: 525px;
+	text-align: left;
+	margin-right: 20px;
+	border: 1px solid black;
+    
+}
+
+.news_info{
+	padding-left: 10px;
+}
+
+.news_title{
+	margin-top: 15px;
+	font-weight: 600;
+}
+
+.tocka{
+	margin-top: -20px;
+}
+
+.news_link{
+	padding-top: 20px;
+}
+
+.news_link a{
+	text-decoration: none;
+	color: black;
+}
+
+
+.footer_inner{
+	display: flex;
+	justify-content: space-between;
+	height: 100px;
+	align-items: center;
+	margin-top: 70px;
+}
+
+.footer_inner ul{
+	list-style-type: none;
+	text-align: left;
+}
+
+.footer_inner ul li {
+	font-size: 17px;
+}
